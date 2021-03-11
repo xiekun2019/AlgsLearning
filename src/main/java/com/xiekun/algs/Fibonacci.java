@@ -1,5 +1,8 @@
 package com.xiekun.algs;
 
+/**
+ * 斐波那契数列
+ */
 public class Fibonacci {
     public static void main(String[] args) {
         long startTime = System.currentTimeMillis();
