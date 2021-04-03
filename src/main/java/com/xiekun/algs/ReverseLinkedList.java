@@ -70,9 +70,9 @@ public class ReverseLinkedList {
     public ListNode reverse(ListNode head) {
         ListNode pre = null;
         ListNode k = head;
-
+        ListNode next = head;
         while(k != null){
-            ListNode next = k.next;
+            next = k.next;
             k.next = pre;
             pre = k;
             k = next;
